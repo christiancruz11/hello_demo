@@ -1,0 +1,15 @@
+---
+namespace: redhat_demo
+name: hello_demo
+version: 1.0.0
+readme: README.md
+authors:
+  - Chris Cruz <chcruz@redhat.com>
+description: A demo collection for Ansible Automation Platform.
+license:
+  - GPL-2.0-or-later
+tags:
+  - demo
+  - aap
+dependencies: {}
+repository: https://github.com/chcruz/hello_demo

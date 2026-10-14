@@ -1,0 +1,11 @@
+---
+# Task 1: Call our custom hello module
+- name: Send a greeting
+  redhat_demo.hello_demo.hello:
+    name: "{{ greeting_name }}"
+  register: hello_result
+
+# Task 2: Display the result
+- name: Display the greeting
+  ansible.builtin.debug:
+    msg: "{{ hello_result.message }}"

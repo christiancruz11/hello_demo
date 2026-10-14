@@ -1,0 +1,3 @@
+---
+# The name used in the greeting. Override this when calling the role.
+greeting_name: "World"
